@@ -7,7 +7,7 @@ public class Dayo14 {
 			System.out.println( givenStr== givenStr1);
 			System.out.println( givenStr.equals(givenStr1));
 			
-			String a = "abcgh";
+			String a = "abc";
 			String b = "def";
 			String c= "";
 			
