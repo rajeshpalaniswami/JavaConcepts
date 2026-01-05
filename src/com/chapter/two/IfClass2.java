@@ -2,7 +2,7 @@ package com.chapter.two;
 
 import java.util.Scanner;
 
-public class IfCalss2 {
+public class IfClass2 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
