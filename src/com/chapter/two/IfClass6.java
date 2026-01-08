@@ -29,7 +29,7 @@ public class IfClass6 {
 			
 			for (int j=temp.length()-1;j>=0;j--) {
 				char c = temp.charAt(j);
-				retemp =retemp+c ;	
+				retemp +=c ;	
 			}
 			array1[i] = retemp;
 		
