@@ -37,16 +37,19 @@ public class IfClass7 {
 			System.out.println("The given number is not a palindrome");
 		}	
 		System.out.println("******************************************************************");
-		
+		//Check whether a triangle is valid.
+		System.out.println("Please enter the length - first side of the triangle");
 		int a =scan.nextInt();
+		System.out.println("Please enter the length - second side of the triangle");
 		int b= scan.nextInt();
+		System.out.println("Please enter the length - third side of the triangle");
 		int c=scan.nextInt();
 		
 		
 		if (a+b>c&&b+c>a&&c+a>b) {
-			System.out.println("true");
+			System.out.println("yes the given lenghts are valid for a triangle");
 		}else {
-			System.out.println("False");
+			System.out.println("No the given lenghts are not a valid for triangle");
 		}
 	}
 
