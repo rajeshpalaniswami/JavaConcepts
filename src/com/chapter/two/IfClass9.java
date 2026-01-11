@@ -18,7 +18,7 @@ public class IfClass9 {
 		if (a+b>c&&b+c>a&&c+a>b) {
 			System.out.println("yes the given lenghts are valid for a triangle");
 			
-			if (a==b&b==c&c==a) {
+			if (a==b&&b==c&&c==a) {
 				System.out.println("Based on the given sides it is a equilateral tringle");
 			}else if (a==b||b==c||c==a) {
 				System.out.println("Based on the given sides it is a isosceles tringle");
