@@ -9,9 +9,7 @@ public class ForEachLoop9 {
 		
 		int SpCount =0;
 		
-		char [] array = givenStr.toCharArray();
-		
-		for (char e : array ) {
+		for (char e : givenStr.toCharArray() ) {
 			if ((!Character.isLetterOrDigit(e))&& (e!=' ')) {
 				SpCount++;
 			}
