@@ -5,9 +5,9 @@ public class ForEachLoopo11 {
 	public static void main(String[] args) {
 		//Find the second largest element in an array using for-each.
 		
-		int [] array = {100,200,500,-300};
-		int first = array  [0];
-		int second =0;
+		int [] array = {-100,-200,-500,-300};
+		int first = Integer.MIN_VALUE;
+		int second =Integer.MIN_VALUE;
 		
 		for (int current : array) {
 			if (current > first) {
