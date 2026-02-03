@@ -14,7 +14,7 @@ public class ForEachLoopo14 {
 			if (current<firstSmall) {
 				 secondSmall = firstSmall;
 				 firstSmall = current;
-			}else if ((secondSmall < firstSmall)&&(secondSmall!=firstSmall)) {
+			}else if ((current < secondSmall)&&(current!=firstSmall)) {
 				secondSmall = current;
 			}
 		}
