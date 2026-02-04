@@ -22,7 +22,7 @@ public class ForEachLoopo15 {
 		
 		for (int i=0;i<array.length;i++) {
 			boolean firstDuplicate = false;
-			for (int j=0;j<array.length;j++) {
+			for (int j=i+1;j<array.length;j++) {
 			
 				if ((array[i]==array[j])) {
 					System.out.println("The frist douplicate element in the given array is "+array[i]);
