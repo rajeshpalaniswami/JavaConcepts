@@ -10,9 +10,9 @@ public class ForEachLoopo19 {
 		
 		for (int a : array1) {
 			for (int b:array2) {
-				if (!(a==b)) {
+				if (a==b) {
 					System.out.println(a);
-					break;
+					
 				}
 			}
 		}
