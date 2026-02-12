@@ -2,7 +2,7 @@ package com.chapter.four.switchstatements;
 
 import java.util.Scanner;
 
-public class SwitchTwo {
+public class Switch2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

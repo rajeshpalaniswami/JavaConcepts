@@ -1,6 +1,6 @@
 package com.chapter.four.switchstatements;
 
-public class SwitchOne {
+public class Switch1 {
 
 	public static void main(String[] args) {
 		int a = 110;
