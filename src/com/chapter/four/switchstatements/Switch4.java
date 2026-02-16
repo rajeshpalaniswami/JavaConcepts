@@ -7,9 +7,9 @@ public class Switch4 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
-
-		char grade = scan.next().charAt(0);
-		grade = Character.toUpperCase(grade);
+		System.out.println("Enter a valid grade letter:");
+		
+		char grade = Character.toUpperCase(scan.next().charAt(0));
 
 		if (Character.isAlphabetic(grade)) {
 			switch (grade) {
@@ -32,7 +32,10 @@ public class Switch4 {
 				System.out.println("Please enter the currect grade");
 				break;
 			}
+		}else {
+		    System.out.println("Invalid input — enter a grade letter");
 		}
+		scan.close();
 
 	}
 
