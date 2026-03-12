@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Dayo17 {
 //Input = Cat catches a calendar
-	// Output =  a cat catches a calendar
+	// Output =  a cat catches calendar
 	public static void main(String[] args) {
 		String inputStr = "Cat catches a calendar";
 		inputStr = inputStr.toLowerCase();
