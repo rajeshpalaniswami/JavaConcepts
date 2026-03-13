@@ -1,6 +1,6 @@
 package com.chapter.three.ffor.each.loop;
 
-public class ForEachLoopo24 {
+public class ForEachLoopo21 {
 
 	public static void main(String[] args) {
 		// Find the smallest number in the array.
